@@ -20,11 +20,11 @@ div.text-box{
     margin-left:auto;
     margin-right:auto;
     margin:20px;
-    border:4px solid black;
+    border:1px solid black;
 }
 
-div.text-box div{
-    padding:30px;
+div.text-box div.main-text{
+    padding:20px 20px 5px 20px;
 }
 
 div.head{
@@ -46,6 +46,10 @@ div.beef{
 
 div.sushi{
     background-color:rgb(255, 229, 136);
+}
+
+div.main-text{
+    margin-top:10px;
 }
 
 /*Desktop*/
